@@ -26,10 +26,10 @@ properties:
       - signer
       - approver
       - final_copy_reader
-    description: Defines the role of the signer in the sign request. Signers will
-      need to sign the document, Approvers may just approve the document.
-      Finally, final_copy_reader will only receive the finished
-      sign request with a sign log
+    description: Defines the role of the signer in the sign request. Signers
+      must sign the document and Approvers will approve the document. A
+      final_copy_reader will only receive the finished sign request and a signer
+      log.
     example: signer
     default: signer
 
